@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Login | DSI</title>
+    <link rel="stylesheet" type="text/css" href="./login.css" >
+  </head>
+  <body>
+    <div class="outer" >
+      <div class="loginbox" >
+        <!-- Maybe change the image to the person's profile picture? -->
+        <img class="logo" src="../images/dsi.png" alt="DSI Logo" >
+        <!-- replace the form action with the correct url -->
+        <form action="./login.php" >
+          <input id="username" type="text" class="input" value="username" >
+          <br>
+          <input id="password" type="password" class="input" value="password" >
+          <br>
+          <input type="submit" class="input button" >
+          <br>
+        </form>
+        <p style="text-align:right" >
+          <!-- These links have to be replaced with the Sign up and Forgot Password pages -->
+          <a class="link" href="./login.php?forgotpasswd" >Forgot password?</a> |
+          <a class="link" href="./login.php?signup" >Sign up</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+

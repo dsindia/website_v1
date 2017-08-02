@@ -1,0 +1,66 @@
+body {
+    font-family: Helvetica;
+
+    /* dark background */
+    background: #202020;
+}
+
+/* outermost element spans the entire page, needed if adding a navbar later */
+.outer {
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Login container */
+.loginbox {
+    margin: auto;
+
+    background: #efefef;
+
+    padding: 20px;
+    width: 320px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px;
+
+}
+
+/* style for a circular image with a black background */
+.logo {
+    width: 100px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 50%;
+
+    background: #000000;
+}
+
+/* style for text boxes */
+.input {
+    border: 0;
+    margin-bottom: 10px;
+    padding: 10px 5%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+/* style for login button */
+.button {
+    text-align: center;
+    width: 100%;
+    background: #af0030;
+    color: #ffffff;
+    border: 0;
+}
+
+/* link to sign up or forgot password */
+a {
+    font-size: 12px;
+}
